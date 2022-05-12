@@ -1,6 +1,6 @@
 # Inventory System
 ## Proyecto final del curso Diseño de Bases de Datos - UCC
-
+***
 Para acceder al código fácilmente sólo vaya a la carpeta "src" y encontrará los paquetes tanto de los iconos usados como de el código base
 ***
 Proyecto desarrollado por:
