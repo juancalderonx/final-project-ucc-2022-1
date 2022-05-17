@@ -225,6 +225,8 @@ public class View extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    
+    //Cargar datos a la tabla.
     private void btnCargarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCargarActionPerformed
 
         DefaultTableModel modeloTabla = new DefaultTableModel();
@@ -278,7 +280,9 @@ public class View extends javax.swing.JFrame {
         }
 
     }//GEN-LAST:event_btnCargarActionPerformed
-
+    
+    
+    //Filtro por código del producto
     private void tablaProductoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tablaProductoMouseClicked
 
         PreparedStatement ps = null;
@@ -316,6 +320,7 @@ public class View extends javax.swing.JFrame {
 
     }//GEN-LAST:event_tablaProductoMouseClicked
 
+    //Creando productos
     private void btnInsertarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInsertarActionPerformed
 
         PreparedStatement ps = null;
