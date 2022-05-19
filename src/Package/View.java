@@ -224,7 +224,7 @@ public class View extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    
     
     //Cargar datos a la tabla.
     private void btnCargarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCargarActionPerformed
@@ -343,7 +343,7 @@ public class View extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "¡Registro insertado correctamente!", "Insert product", JOptionPane.INFORMATION_MESSAGE, iconoBien);
 
         } catch (Exception e) {
-            System.err.println("Error " + e);
+            JOptionPane.showMessageDialog(null, "Error, invalid information", "ERROR", JOptionPane.ERROR_MESSAGE);
         }
 
 
@@ -371,7 +371,7 @@ public class View extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "¡Registro modificado correctamente!", "Update product", JOptionPane.INFORMATION_MESSAGE, iconoBien);
 
         } catch (Exception e) {
-            System.err.println("Error " + e);
+            JOptionPane.showMessageDialog(null, "Error, invalid information", "ERROR", JOptionPane.ERROR_MESSAGE);
         }
 
     }//GEN-LAST:event_btnModificarActionPerformed
